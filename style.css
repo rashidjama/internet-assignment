@@ -66,15 +66,16 @@
 .advertisement img {
   width: 100px;
 }
-.advertisement button {
-  display: block;
-  margin: 0 auto 20px;
-  background-color: rgb(11, 136, 136);
-  font-size: 15px;
-}
-.advertisement button a {
+.advertisement a {
+  width: 150px;
   color: white;
+  font-size: 15px;
+  display: block;
   text-decoration: none;
+  background-color: teal;
+  padding: 5px;
+  border-radius: 5px;
+  margin-bottom: 20px;
 }
 .border_line {
   border-bottom: 1px solid #6c6868;
