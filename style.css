@@ -1,0 +1,137 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+.container {
+  width: 970px;
+  margin: 0 auto;
+
+}
+.container header img {
+  width: 100px;
+  position: relative;
+  top: 25px;
+}
+.container header h1 {
+  display: inline-block;
+  font-size: 35px;
+}
+.container h2 {
+  background-color: cornflowerblue;
+  color: white;
+  padding: 15px;
+  font-size: 25px;
+
+}
+.side_bar {
+  width: 200px;
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 15px;
+  padding: 5px;
+}
+
+.side_bar button {
+  width: 140px;
+  display: block;
+  padding: 7px;
+  margin: 2px 0 4px 0;
+  border-radius: 5px;
+}
+#btn1 {
+  background-color: cornflowerblue;
+  color: white;
+  width: 100%;
+  padding: 10px;
+  margin-top: 20px;
+}
+#btn2 {
+  background-color: darkorange;
+  width: 100%;
+  color: white;
+  margin-bottom: 70px;
+  padding: 10px;
+}
+.advertisement {
+  background-image: url(./images-2/ad_background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  font-size: 25px;
+  text-align: center;
+  padding: 10px;
+}
+.advertisement img {
+  width: 100px;
+}
+.advertisement button {
+  display: block;
+  margin: 0 auto 20px;
+  background-color: rgb(11, 136, 136);
+  font-size: 15px;
+}
+.advertisement button a {
+  color: white;
+  text-decoration: none;
+}
+.border_line {
+  border-bottom: 1px solid #6c6868;
+  margin: 10px 0 50px;
+}
+.main_content {
+  width: 650px;
+  display: inline-block;
+  margin-left: 100px;
+}
+.main_content .contact {
+  border-bottom: 2px solid gray;
+  padding: 5px;
+}
+.contact .phone {
+  display: inline-block;
+  margin-left: 300px;
+}
+.main_content .contact #home {
+  margin-top: 15px;
+  vertical-align: top;
+  display: inline-block;
+}
+.main_content .contact img {
+  width: 32px;
+}
+.contact .phone span {
+  font-size: 30px;
+  font-weight: bold;
+  color:  rgb(100, 216, 237);
+ 
+}
+
+
+.red_span {
+  color: red;
+}
+.blue_span {
+  color: rgb(70, 124, 223);
+}
+
+.internet_info ul, ol {
+  margin: 10px 0 0 40px;
+}
+.internet_info img {
+  width: 200px;
+  display: block;
+  margin: 20px auto;
+}
+.web_fund {
+  display: flex;
+  padding: 20px;
+  margin-top: 20px;
+  border: 5px solid blue;
+  border-bottom: none;
+}
+.web_fund img {
+  width: 150px;
+  margin: -1px 15px 0 0;  
+}
